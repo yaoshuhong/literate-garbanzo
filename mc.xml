@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log>
+	<order>20150831_H03000000643</order>
+	<market>HK</market>
+	<tag11>H03000000643_1</tag11>
+	<upmsg>08/31 09:23:00.513977 %% 8=FIX.4.2^9=0318^35=D^49=HK_CFR_HK_DMA_OCG1^56=HKRAPTORDMAOCG1^34=67^52=20150831-01:23:00^115=0SGTI^1=Bob order^10105=DMA^10104=DMA_TRA
+DER^11=H03000000643_1^20021=H03000000643_1^20020=150831_SCFR_H03000000643^20011=S0831092300_00005^21=1^38=2000^37=H03000000643_1^40=2^109=0SGTI^47=A^44=144.0^55
+=0700.HK^54=1^59=0^60=20150831-01:23:00^10=034^
+	</upmsg>
+	<upmsg>08/31 09:30:00.301823 %% 8=FIX.4.2^9=0000394^35=8^34=79^49=HKRAPTORDMAOCG1^56=HK_CFR_HK_DMA_OCG1^52=20150831-01:30:00.301^43=N^97=N^128=0SGTI^20=0^526=4^60=2015
+0831-01:30:00.301^6=0^381=0^11=H03000000643_1^37=4^100=HK^207=HK^55=0700.HK^198=17^9500=N^9518=9^9519=1342^22=5^48=0700.HK^9422=8^9423=700^9424=8^9425=700^109=0
+SGTI^1=Bob order^9426=HKCFR_OCG^9427=HKCFR^39=0^54=1^40=7^44=144^167=CS^38=2000^14=0^151=2000^150=0^17=Z8^59=0^76=1342^10=023^
+	</upmsg>
+	<tag37>4</tag37>
+	<downmsg>[ [clientOrderID=4] [submittingBrokerID=1342] [securityID=700] [securityIDSrc=8] [securityExch=XHKG] [transactionTime=20150831-01:23:00.000] [side=1(buy)] [orde
+rType=2(lmt)] [price=144] [orderQty=2000] [tif=9(atX)] [orderCapacity=1] [executionInstr=0 1] [disclosureInstr=1] ]
+	</downmsg>[ [clientOrderID=4] [submittingBrokerID=1342] [securityID=700] [securityIDSrc=8] [securityExch=XHKG] [transactionTime=20150831-01:30:00.000] [side=1(buy)] [orde
+rID=17] [orderType=2(lmt)] [price=144] [orderQty=2000] [tif=9(atX)] [orderCapacity=1] [execID=yI.ZT.F] [orderStatus=0(new)] [execType=0(new)] [cumQty=0] [Leaves
+Qty=2000] [lotType=2] ]
+	<downmsg>[ [clientOrderID=149] [submittingBrokerID=1342] [securityID=700] [securityIDSrc=8] [securityExch=XHKG] [transactionTime=20150831-01:32:47.000] [side=1(buy)] [or
+igClientOrderID=4] [orderID=17] [orderType=2(lmt)] [price=144] [orderQty=1000000] [tif=9(atX)] [orderCapacity=1] [executionInstr=0 1] [disclosureInstr=1] ]
+	</downmsg>
+	<downmsg>[ [clientOrderID=149] [submittingBrokerID=1342] [securityID=700] [securityIDSrc=8] [securityExch=XHKG] [transactionTime=20150831-01:32:47.000] [side=1(buy)] [or
+igClientOrderID=4] [orderID=17] [orderType=2(lmt)] [price=144] [orderQty=2000] [tif=9(atX)] [orderCapacity=1] [reason=7077 Order Quantity exceeds allowed Market
+ Max Order Size] [execID=p0zx2_b] [orderStatus=0(new)] [execType=Y(amendReject)] [cumQty=0] [LeavesQty=2000] [amendRejectCode=99(other)] ]
+	</downmsg>	
+</log>
